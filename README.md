@@ -22,9 +22,13 @@ Web3.js v1.0.0-beta.37
 
 ### UML
 - Activity Diagram
+![Activity Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Activity.png)
 - Class Diagram
+![Class Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Class%20Diagram.png)
 - Sequence Diagram
+![Sequence Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Sequence%20Diagram.png)
 - State Diagram
+![State Diagram](https://github.com/Lana20199/MSC/blob/master/UML/State.png)
 
 ### Rinkeby Deployed Contract 
 - Transaction ID:
@@ -79,8 +83,3 @@ In a separate terminal window, launch the DApp:
 ```
 npm run dev
 ```
-
-## Built With
-
-* [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
-* [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
