@@ -83,3 +83,5 @@ In a separate terminal window, launch the DApp:
 ```
 npm run dev
 ```
+Transaction History 
+![History](https://github.com/Lana20199/MSC/blob/master/History.png)
