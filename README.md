@@ -22,11 +22,11 @@ Web3.js v1.0.0-beta.37
 
 ### UML
 - Activity Diagram
-![Activity Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Activity.png)
+![Activity Diagram](https://github.com/Lana20199/MSC/blob/master/Activity.png)
 - Class Diagram
-![Class Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Class%20Diagram.png)
+![Class Diagram](https://github.com/Lana20199/MSC/blob/master/UML/ClassDiagram.png)
 - Sequence Diagram
-![Sequence Diagram](https://github.com/Lana20199/MSC/blob/master/UML/Sequence%20Diagram.png)
+![Sequence Diagram](https://github.com/Lana20199/MSC/blob/master/UML/SequenceDiagram.png)
 - State Diagram
 ![State Diagram](https://github.com/Lana20199/MSC/blob/master/UML/State.png)
 
