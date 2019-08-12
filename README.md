@@ -84,3 +84,6 @@ npm run dev
 ```
 Transaction History 
 ![History](https://github.com/Lana20199/MSC/blob/master/History.png)
+
+### IPFS
+IPFS is not used in the project
