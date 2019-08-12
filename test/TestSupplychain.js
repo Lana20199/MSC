@@ -15,8 +15,6 @@ contract('SupplyChain', function(accounts) {
     var productID = sku + upc
     const productNotes = "Best Mango on earth"
     const productPrice = web3.utils.toWei('1', "ether")
-    // hard-coded value for preventing issues in different versions of web3 
-    // const productPrice = '1000000000000000000';
     var itemState = 0
     const distributorID = accounts[2]
     const retailerID = accounts[3]
@@ -104,7 +102,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function buyItem() that allows a distributor to buy coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
 
-        // await supplyChain.addDistributor(distributorID);
+        await supplyChain.addDistributor(distributorID);
         // Mark an item as Sold by calling function buyItem()
         await supplyChain.buyItem(upc, {from: distributorID, value: productPrice});
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
@@ -135,7 +133,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function receiveItem() that allows a retailer to mark coffee received", async() => {
         const supplyChain = await SupplyChain.deployed()
 
-        // await supplyChain.addRetailer(retailerID);
+        await supplyChain.addRetailer(retailerID);
         // Mark an item as Recieved by calling function receiveItemItem()
         await supplyChain.receiveItem(upc, {from: retailerID});
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
@@ -151,7 +149,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function purchaseItem() that allows a consumer to purchase coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
 
-        // await supplyChain.addConsumer(consumerID);
+        await supplyChain.addConsumer(consumerID);
         // Mark an item as Purchased by calling function purchaseItem()
         await supplyChain.purchaseItem(upc, {from: consumerID});
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
