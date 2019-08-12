@@ -34,8 +34,8 @@ Web3.js v1.0.0-beta.37
 ![State Diagram](https://github.com/Lana20199/MSC/blob/master/UML/State.png)
 
 ### Rinkeby Deployed Contract 
-- Transaction Hash:0x22f1e1e2f08ab3f01e3dab19d1754ba02b83ca232e5cd24d3fcd14ff2a42695e
-- Contract Address: 0x598cda79F84BB8481EbcE5D4CFE3fd37A65c3cD0
+- Transaction Hash:0x34064fe8b0e695bac147da4f9c8f00a4ad4820bdf75345dcfd7955cf1d941c56
+- Contract Address: 0x26CDe2492135A8117729dC1b65BF246eC140FC80
 
 ### Installing
 
